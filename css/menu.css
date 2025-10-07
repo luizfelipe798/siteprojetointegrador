@@ -71,11 +71,13 @@ body
     width: 25%;
     height: 40px;
     border: 1px solid #fff;
-    color: #fff;
+    color: #183459;
+    background-color: #fff;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -83,25 +85,8 @@ body
     transition: 0.3s;
 }
 
-.btnLogin
+.btnLogin:hover, .btnCadastro:hover
 {
     color: #fff;
-}
-
-.btnLogin:hover
-{
-    color: #183459;
-    background-color: #fff;
-}
-
-.btnCadastro
-{
-    background-color: #fff;
-    color: #183459;
-}
-
-.btnCadastro:hover
-{
     background-color: #183459;
-    color: #fff;
 }
