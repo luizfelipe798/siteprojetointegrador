@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="imagens/logotiposalus.png" type="image/x-icon">
 
-    <title>Sailus - Página inicial</title>
+    <title>Sailu - Página inicial</title>
 </head>
 <body>
     <!--Menu Principal-->
