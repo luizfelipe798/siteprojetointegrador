@@ -26,8 +26,8 @@
             </div>
 
             <select name="tipo" id="tipoUsuario">
-                <option value="funcionario">Funcionário</option>
-                <option value="medico">Médico</option>
+                <option value="Funcionario">Funcionário</option>
+                <option value="Medico">Médico</option>
             </select>
         </div>
         <div class="btnFormulario">

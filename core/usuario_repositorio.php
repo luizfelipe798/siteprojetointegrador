@@ -8,7 +8,7 @@
     switch($acao)
     {
         case "cadastro":
-            $tipoUsuario = $_POST['tipo_user'];
+            $nome = $_POST['nome']
 
             if($tipoUsuario === "Funcionario")
             {
