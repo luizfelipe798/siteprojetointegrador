@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../imagens/logotiposalus.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/cadastro_login.css">
 
     <title>Login - Sailus</title>
 </head>
 <body>
     <form action="">
         <div class="logoFormulario">
-            <img src="imagens/logosomentetexto.png" alt="Logotipo Sailus">
+            <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
         <div class="inputsFormulario">
             <input type="hidden" name="acao" value="login">
@@ -30,7 +32,7 @@
     </form>
     <div class="naoPossuiFormulario">
         <p>Ainda não é cadastrado?</p>
-        <a href="paginas/escolha.html">Cadastrar-se</a>
+        <a href="escolha.html">Cadastrar-se</a>
     </div>
 </body>
 </html>

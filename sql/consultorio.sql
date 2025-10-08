@@ -15,7 +15,7 @@ CREATE TABLE Usuario
 DESC Usuario;
 SELECT * FROM Usuario;
 
-CREATE TABLE Funcionario 
+CREATE TABLE Funcionario
 (
 	id                        INT           PRIMARY KEY,
     dataContratacao           DATE          NOT NULL,

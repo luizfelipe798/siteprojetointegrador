@@ -1,22 +1,27 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/cadastrofuncionario.css">
+    <link rel="shortcut icon" href="../imagens/logotiposalus.png" type="image/x-icon">
 
-    <title>Cadastro para funcionário - Sailus</title>
+    <link rel="stylesheet" href="../css/cadastro_login.css">
+
+    <title>Cadastro de funcionário - Sailus</title>
 </head>
 <body>
-    <form action="">
+    <form action="" method="POST">
         <div class="logoFormulario">
-            <img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus">
+            <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
         <div class="inputsFormulario">
-            <select name="tipo" id="" hidden>
-                <option value="Funcionário" checked>Funcionário</option>
-            </select>
+            <input type="hidden" name="tipo_user" value="funcionario">
+            <input type="hidden" name="acao" value="cadastro">
 
             <input type="text" placeholder="Nome" name="nome" required>
 
@@ -38,9 +43,14 @@
             <button type="submit">Cadastrar-se</button>
         </div>
     </form>
+
     <div class="naoPossuiFormulario">
         <p>Já é cadastrado?</p>
-        <a href="login.html">logar-se</a>
+        <a href="login.php">logar-se</a>
     </div>
+
+    <?php if(isset($_SESSION['erro_cadastro'])) : ?>
+        
+    <?php endif; ?>
 </body>
 </html>

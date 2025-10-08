@@ -1,9 +1,3 @@
-:root
-{
-    --back: #183458;
-    --backForm: #1f638e;
-}
-
 *
 {
     margin: 0;
@@ -18,18 +12,17 @@ html, body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--back);
-    font-family: Arial, sans-serif;
+    background-color: #183458;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 form
 {
     width: 30%;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--backForm);
+    background-color: #1f638e;
     border-radius: 15px;
 }
 
@@ -42,19 +35,19 @@ form
     align-items: center;
 }
 
-.logoFormulario img
+.logoFormulario a img
 {
-    width: 50%;
+    width: 100%;
     height: 90px;
 }
 
 .inputsFormulario
 {
     width: 100%;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .inputsFormulario input, select
@@ -79,23 +72,23 @@ form
 
 .inputsFormulario input:focus, select:focus
 {
-  outline: none;
-  box-shadow: 0 0 8px black;
+    outline: none;
+    box-shadow: 0 0 8px black;
 }
 
 .btnFormulario
 {
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .btnFormulario button
 {
     width: 35%;
     height: 35px;
-    color: var(--backForm);
+    color: #1f638e;
     background-color: #fff;
     border: none;
     border-radius: 5px;
@@ -106,7 +99,7 @@ form
 
 .btnFormulario button:hover
 {
-    background-color: var(--back);
+    background-color: #183458;
     color: #fff;
     cursor: pointer;
 }
