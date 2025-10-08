@@ -28,7 +28,7 @@
             </p>
 
             <div class="btnsExplicativo"> 
-                <a class="btnEntrarAgora" href="paginas/login.html">Entre agora</a>
+                <a class="btnEntrarAgora" href="paginas/login.php">Entre agora</a>
                 <a class="btnConhecaNos" href="#sobrenosBody">Conheça-nos</a>
             </div>
         </div>
