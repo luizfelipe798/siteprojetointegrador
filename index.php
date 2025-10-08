@@ -29,7 +29,7 @@
 
             <div class="btnsExplicativo"> 
                 <a class="btnEntrarAgora" href="paginas/login.html">Entre agora</a>
-                <a class="btnConhecaNos" href="paginas/sobre.html">Conheça-nos</a>
+                <a class="btnConhecaNos" href="#sobrenosBody">Conheça-nos</a>
             </div>
         </div>
         
@@ -71,6 +71,9 @@
                     <p>Murilo Silva Amâncio</p>
                 </div>
             </div>
+        </div>
+        <div class="textoSobrenosBody">
+            <p>Com o nosso trabalho unificado como equipe, o desenvolvimento desse sistema ficou muito melhor. Cada desenvolvedor contém uma grande importância para a construção do projeto como um todo.</p>
         </div>
     </div>
 

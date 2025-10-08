@@ -69,8 +69,7 @@ body {
 /* Sobre nós */
 .sobrenosBody 
 {
-    padding: 80px;
-    margin: 1px solid black;
+    padding: 50px;
 }
 
 .ContainerTituloAndTextoSobrenosBody, .ContainerTituloAndImagensDesenvolvedoresBody
@@ -80,6 +79,11 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+}
+
+.ContainerTituloAndImagensDesenvolvedoresBody
+{
+    margin-bottom: 50px;
 }
 
 .tituloSobreNosBody h1,
@@ -94,7 +98,7 @@ body {
 .textoSobrenosBody p {
     font-size: 1.1em;
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: white;
 }
 

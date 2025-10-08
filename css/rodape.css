@@ -23,10 +23,17 @@
     justify-content: start;
 }
 
+.instituto-container a
+{
+    text-decoration: none;
+    outline: none;
+}
+
 .instituto-container a, .instituto-container img
 {
     width: 230px;
     height: 95px;
+    cursor: pointer;
 }
 
 .copyright-container
