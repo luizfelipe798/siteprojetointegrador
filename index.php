@@ -5,7 +5,7 @@
 
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/pageindex.css">
-    <link rel="stylesheet" href="rodape.css">
+    <link rel="stylesheet" href="css/rodape.css">
 
     <link rel="shortcut icon" href="imagens/logotiposalus.png" type="image/x-icon">
 
@@ -16,6 +16,7 @@
     <?php
         include "includes/menu.php";
     ?>
+
     <!--Conteúdo principal do body-->
     <div class="textoImagemExplicativos">
         <div class="textoExplicativo">
@@ -72,13 +73,9 @@
             </div>
         </div>
     </div>
-    <div class="footer" id="footer">
-        <div class="logoFooter">
-            <a href="https://bri.ifsp.edu.br/" class="logoFooter"><img src="imagens/logoifspbribranca.png" alt="LLogotipo IFSP" class="logoFooter"></a>
-        </div>
-        <div>
-            <p>© 2025 Sailus. Todos os direitos reservados.</p>
-        </div>
-    </div>
+
+    <?php
+        include "includes/rodape.php";
+    ?>
 </body>
 </html>
