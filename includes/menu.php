@@ -9,6 +9,6 @@
 
     <div class="botoesCadastroLogin">
         <a href="login.html" class="btnLogin">Login</a>
-        <a href="paginas/escolha.html" class="btnCadastro">Cadastre-se</a>
+        <a href='../paginas/escolha.html' class="btnCadastro">Cadastre-se</a>
     </div>
 </menu>
