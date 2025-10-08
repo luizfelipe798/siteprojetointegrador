@@ -8,7 +8,7 @@
     </div>
 
     <div class="botoesCadastroLogin">
-        <a href="paginas/login.html" class="btnLogin">Login</a>
+        <a href="paginas/login.php" class="btnLogin">Login</a>
         <a href="paginas/escolha.html" class="btnCadastro">Cadastre-se</a>
     </div>
 </menu>

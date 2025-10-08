@@ -11,7 +11,7 @@
     <title>Login - Sailus</title>
 </head>
 <body>
-    <form action="">
+    <form action="../core/usuario_repositorio.php" method="POST">
         <div class="logoFormulario">
             <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
@@ -20,6 +20,10 @@
             <input type="text" placeholder="E-mail" required name="email">
 
             <input type="text" placeholder="Senha" required name="senha">
+
+            <div>
+                <label for="turno">Tipo de usuário:</label>
+            </div>
 
             <select name="tipo" id="tipoUsuario">
                 <option value="funcionario">Funcionário</option>

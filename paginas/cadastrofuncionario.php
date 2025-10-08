@@ -15,7 +15,7 @@
     <title>Cadastro de funcionário - Sailus</title>
 </head>
 <body>
-    <form action="" method="POST">
+    <form action="../core/usuario_repositorio.php" method="POST">
         <div class="logoFormulario">
             <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
@@ -32,6 +32,10 @@
             <input type="password" placeholder="Senha" name="senha" required>
 
             <input type="date" placeholder="Data de contratação" name="dtContratacao" required>
+
+            <div>
+                <label for="turno">Turno:</label>
+            </div>
 
             <select name="turno" id="turno">
                 <option value="Manhã">Manhã</option>

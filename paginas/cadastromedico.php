@@ -15,7 +15,7 @@
     <title>Cadastro de médico - Sailus</title>
 </head>
 <body>
-    <form action="" method="POST">
+    <form action="../core/usuario_repositorio.php" method="POST">
         <div class="logoFormulario">
             <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
@@ -35,7 +35,9 @@
 
             <input type="text" placeholder="Especialidade" name="especialidade" required>
 
-            <input type="number" placeholder="Nº de pacientes responsáveis" name="nPacienteResponsavel" required>
+            <div>
+                <label for="plantonista">Plantonista?</label>
+            </div>
 
             <select name="plantonista" id="plantonista">
                 <option value="Sim">Sim</option>

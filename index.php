@@ -55,7 +55,7 @@
             </div>
             <div class="imagensDesenvolvedoresBody">
                 <div class="desenvolvedor">
-                    <a href="https://www.instagram.com/_mari._silvap/"><img src="imagens/desenvolvedores/vinicius.jpg" alt="Desenvolvedor 2"></a>
+                    <a href="https://www.instagram.com/vinni3xx/"><img src="imagens/desenvolvedores/vinicius.jpg" alt="Desenvolvedor 2"></a>
                     <p>Vinicius de Sousa Molina</p>
                 </div>
                 <div class="desenvolvedor">
