@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/pageindex.css">
+    <link rel="stylesheet" href="css/body_index.css">
     <link rel="stylesheet" href="css/rodape.css">
 
     <link rel="shortcut icon" href="imagens/logotiposalus.png" type="image/x-icon">
@@ -55,19 +55,19 @@
             </div>
             <div class="imagensDesenvolvedoresBody">
                 <div class="desenvolvedor">
-                    <img src="imagens/desenvolvedores/vinicius.jpg" alt="Desenvolvedor 1">
+                    <a href="https://www.instagram.com/_mari._silvap/"><img src="imagens/desenvolvedores/vinicius.jpg" alt="Desenvolvedor 2"></a>
                     <p>Vinicius de Sousa Molina</p>
                 </div>
                 <div class="desenvolvedor">
-                    <a href="https://www.instagram.com/_mari._silvap/"><img src="imagens/desenvolvedores/luizfelipe.jpg" alt="Desenvolvedor 2"></a>
+                    <a href="https://www.instagram.com/luizfeliipe_14/"><img src="imagens/desenvolvedores/luizfelipe.jpg" alt="Desenvolvedor 2"></a>
                     <p>Luiz Felipe Vignoto Silva</p>
                 </div>
                 <div class="desenvolvedor">
-                    <img src="imagens/desenvolvedores/mariana.jpg" alt="Desenvolvedor 3">
+                    <a href="https://www.instagram.com/_mari._silvap/"><img src="imagens/desenvolvedores/mariana.jpg" alt="Desenvolvedor 2"></a>
                     <p>Mariana da Silva Peres</p>
                 </div>
                 <div class="desenvolvedor">
-                    <img src="imagens/desenvolvedores/murilo.jpg" alt="Desenvolvedor 4">
+                    <a href="https://www.instagram.com/murilo_s.am/"><img src="imagens/desenvolvedores/murilo.jpg" alt="Desenvolvedor 2"></a>
                     <p>Murilo Silva Amâncio</p>
                 </div>
             </div>
