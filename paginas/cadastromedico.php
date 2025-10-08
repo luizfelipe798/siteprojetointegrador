@@ -20,7 +20,7 @@
             <a href="../index.php"><img src="../imagens/logosomentetexto.png" alt="Logotipo Sailus"></a>
         </div>
         <div class="inputsFormulario">
-            <input type="hidden" name="tipo_user" value="medico">
+            <input type="hidden" name="tipo_user" value="Medico">
             <input type="hidden" name="acao" value="cadastro">
 
             <input type="text" placeholder="Nome" name="nome" required>

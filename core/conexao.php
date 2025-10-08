@@ -5,16 +5,14 @@
     $bdUsuario = "root";
     $bdSenha = "8156784815";
 
-    $conexao = mysqli_connect($bdServidor, $bdUsuario, $bdSenha, $bdNome);
+    $conexao = new mysqli($bdServidor, $bdUsuario, $bdSenha, $bdNome);
 
-    if(!$conexao)
+    if($conexao->connect_error)
     {
-        die("Conexão falhou: " . mysqli_connect_error());
+        echo "Erro de conexão: " . $conexao->connect_error;
     }
     else
     {
         echo "Conexão realizada com sucesso!";
     }
-
-    mysqli_close($conexao);
 ?>
